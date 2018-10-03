@@ -1,7 +1,8 @@
 # devops
-readmeeeeeeee
-git commit
-git branch [name]
+https://www.gitignore.io/api/macos,linux,windows
+
+git commit </br>
+git branch [name]  </br>
 git checkout -b [name]
 git merge 
 git branch -f HEAD
