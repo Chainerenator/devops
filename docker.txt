@@ -1,0 +1,10 @@
+docker run -d --network=host --name chainerwp  chainerwp
+
+etopian/alpine-php-wordpress 
+mkdir -p /data/sites/info/htdocs
+sudo docker run -e VIRTUAL_HOST=localhost -v /data/sites/info:/DATA -p 8080:80 chainerwp
+chown -R 100:101 /data/sites/etopian.com/htdocs
+
+sudo docker attach
+sudo docker exec -i -t 1a6939c94128 /bin/bash
+1a6939c94128
