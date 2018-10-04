@@ -26,3 +26,12 @@ git hist --all
 [alias]
 ci = commit
 ...
+===WP___
+
+docker run -d -p 80:80 -v /local/folder:/var/www/wp-content \
+-e "DB_HOST=db" \
+-e "DB_NAME=wordpress" \
+-e "DB_USER=wp" \
+-e "DB_PASSWORD=secret" \
+-e "FS_METHOD=direct" \
+trafex/wordpress
