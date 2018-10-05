@@ -1,0 +1,22 @@
+Deckerfile 
+appsppec.yaml
+code 
+
+>>>>>
+
+githb 
+S3 ?  ecr  private registry hub.dockrrt
+>>>> authorise
+IAM
+>>
+build>
+
+build > ecr >       kuber dockerswarm eks 
+
+-task
+-task 
+-taks  ??>>>> service ----
+
+
+update = polibg for updates - and push service to task2 rolling upd - code pipeline.
+
