@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - $(aws ecr get-login --no-include-email --region $AWS_REGION)
+  build:
+    commands:
+      - echo Build started on date
+      - echo Building the Docker image...
+      - docker build -t ca-container-registry:testblue .
+      - docker tag ca-container-registry:testblue $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/devops8:testblue
+  post_build:
+    commands:
+      - echo Build completed on date
+      - echo Pushing the Docker image...
+      - docker push $AWS_ACCOUNT_ID.dkr.ecr.us-east-2.amazonaws.com/devops8:testblue
