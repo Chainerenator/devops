@@ -35,3 +35,7 @@ docker run -d -p 80:80 -v /local/folder:/var/www/wp-content \
 -e "DB_PASSWORD=secret" \
 -e "FS_METHOD=direct" \
 trafex/wordpress
+
+jenjins-aws credental
+docker hiker
+
