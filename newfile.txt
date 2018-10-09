@@ -1,0 +1,34 @@
+З одної із співбесід.
+
+Time to complete the test is 1,5 hour
+
+1. Is it possible to assign IP addresses 10.1.2.255 or 10.1.2.0 to an network interface?
+2. How much networks with network mask /27 could fit into network with mask /16?
+3. How DHCP client talk to DHCP server at initial phase?
+4. Describe name resolution process for name "somesite.com" on client machine which has IP address of internal router as DNS server (i.e. 10.0.0.1) and this router setup to forward DNS requests to ISP DNS server?
+5. How would you migrate some web service which serving clients (running on Windows + IIS + MS SQL Server) from AWS EC2 into VPC with minimal downtime?
+6. Is it required to update (patch) software? If so why?
+7. List all checks that client will do during HTTPS connection initiation?
+8. You have web service. Operating System on this server require security updates and then server should be rebooted, what you can do to minimize or avoid downtime for this service?
+9. You have Database server with 100 databases, size of each database is around 50Gb, please propose backup strategy for those databases keeping in mind that you should be able to restore any database into any point in time?
+10. How would you divide SQL scripts into scripts that require database backup before running them and scripts which can be run over database without backing it up?
+11. List criteria's for SQL scripts that can be run during business hours and scripts that can be run during off hours?
+12. You are migrating web service ASP.NET onto new server with IIS web server. Your goal is to setup web server at the maximum security, what steps you will go through?
+13. After checking your web service (IIS + MS SQL) security auditor warned you that your service affected by SQL injection attack, what will you do to mitigate this security risk or fully protect your web service against this type of attack?
+14. Your task is to restart all windows services that contains "TestService" in their name using PowerShell (write two scripts):
+ a) sequentially;
+ b) in parallel, with 1 second start delay.
+
+Assess yourself using scale from 1 to 5 in following areas:
+ 
+TCP/IP protocol family
+Administering Windows infrastructure
+IIS servers and web applications 
+MS SQL 
+PowerShell scripting
+highly-availability environments 
+deployment automation
+SQL scripting
+Administering Linux servers
+Unix Shell scripting
+Other scripting/programming languages:
