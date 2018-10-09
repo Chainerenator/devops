@@ -1,0 +1,7 @@
+    #push image 
+    export DOCKER_ID_USER="chianer1"
+	  docker login
+	  docker AB333ABB $DOCKER_ID_USER/my_image
+    # AB33 = image_id   my_image = name 
+	  docker push $DOCKER_ID_USER/my_image
+    # my_image = name 
