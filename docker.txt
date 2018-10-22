@@ -13,3 +13,4 @@ sudo docker exec -i -t 1a6939c94128 /bin/bash
 
 docker run --rm -p 8787:8787 rocker/verse
 docker run --rm -p 8080:8080 chainer1/chjenkins
+
