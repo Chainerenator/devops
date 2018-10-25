@@ -8,3 +8,9 @@ chown -R 100:101 /data/sites/etopian.com/htdocs
 sudo docker attach
 sudo docker exec -i -t 1a6939c94128 /bin/bash
 1a6939c94128
+
+
+
+docker run --rm -p 8787:8787 rocker/verse
+docker run --rm -p 8080:8080 chainer1/chjenkins
+
